@@ -4,6 +4,18 @@ def searchPrefix(arr,s)
     return selected
 end
 
-print(searchPrefix(["abcde", "abdf", "adeab", "abdgse", "bdefa", "bacdef"],"ab"))
 
+a=["abcde", "abdf", "adeab", "abdgse", "bdefa", "bacdef"]
+apre="ab"
+print "Input 1: "
+print a,apre
+puts 
+print "Output: "
+print(searchPrefix(["abcde", "abdf", "adeab", "abdgse", "bdefa", "bacdef"],"ab"))
+puts 
+apre="b"
+print "Input 2: "
+print a,apre
+puts 
+print "Output: "
 print(searchPrefix(["abcde", "abdf", "adeab", "abdgse", "bdefa", "bacdef"],"b"))
